@@ -23,6 +23,11 @@
 }
 @font-face {
 	font-family: Raleway;
+	src: url('../fonts/Raleway-Regular.ttf');
+	font-weight: 400;
+}
+@font-face {
+	font-family: Raleway;
 	src: url('../fonts/Raleway-Bold.ttf');
 	font-weight: 700;
 }
@@ -67,19 +72,19 @@ html {
 .wrapper {
 	max-width: 1360px;
 }
-.header__container {
+.footer-header__container {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
 	align-items: center;
 }
-.header__logo {
+.footer-header__logo {
 	font: bold 36px/1 "Lucida Grande", Arial, sans-serif;
 }
-.header__slogan {
+.footer-header__slogan {
 	font: 300 19px/1 'Raleway', Arial, sans-serif;
 }
-.header__telephone {
+.footer-header__telephone {
 	font: bold 20px/1 "Lucida Grande", Arial, sans-serif;
 }
 .main__consultation-header {
@@ -100,9 +105,6 @@ html {
 	font: 300 20px/1 Raleway, Arial, sans-serif;
 	color: #fff;
 	margin-bottom: 30px;
-}
-.main__image {
-
 }
 .global-btn {
 	width: 350px;
@@ -152,4 +154,7 @@ html {
 }
 [class*="main__result-image-"] {
 	margin: 0 20px;
+}
+.footer-color {
+	background-color: #77AAD5;
 }

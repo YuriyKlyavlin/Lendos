@@ -1,14 +1,10 @@
 /* smartfons */
 
 @media (max-width: 480px) {
-	.header__container {
-		margin: 10px 5px;
-	}
-	.header__slogan {
+	.footer-header__slogan {
 		order: 2;
 		font-size: 14px;
-		margin: 0 auto;
-		margin-top: 10px;
+		margin: 10px auto 5px;
 	}
 	.main__consultation-header {
 		font: bold 18px/1 Raleway, Arial, sans-serif;
@@ -29,7 +25,7 @@
 	.global-btn {
 		display: block;
 		width: 240px;
-		height: 40px;
+		height: 50px;
 		font-size: 18px;
 	}
 	.main__image {
@@ -139,6 +135,7 @@
 	}
 	.main__reviews {
 		position: relative;
+		margin-bottom: 20px;
 	}
 	.main__reviws-title {
 		font: 700 16px/1 Raleway, Arial, sans-serif;
@@ -163,16 +160,32 @@
 	}
 	.main__reviws-slider::before {
 		position: absolute;
-		display: inline-block;
 		content: "\f053";
-		font-family: FontAwesome;
-		font-size: 24px;
+		font: normal 25px/2.1 FontAwesome;
 		text-align: center;
+		text-indent: -5px;
 		left: -59px; top: 130px;
 		width: 50px; height: 50px;
-		padding: 0;
 		border-radius: 50%;
 		background-color: #fff;
+	}
+	.main__reviws-slider::after {
+		position: absolute;
+		content: "\f054";
+		font: normal 25px/2.1 FontAwesome;
+		text-align: center;
+		text-indent: 5px;
+		left: 355px; top: 130px;
+		width: 50px; height: 50px;
+		border-radius: 50%;
+		background-color: #fff;
+	}
+	.main__reviws-slider:hover {
+
+	}
+	.main__reviws-slider:hover::before {
+		background-color: #252525;
+		color: #fff;
 	}
 	.main__reviws-user-pic {
 		position: absolute;
@@ -196,6 +209,70 @@
 		font: 300 16px/2 Raleway, Arial, sans-serif;
 		margin-bottom: 10px;
 		text-align: center;
+	}
+	.main__bid {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+	.main__bid-title {
+		font: 700 16px/1 Raleway, Arial, sans-serif;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	.main__bid-subtitle {
+		font: 300 16px/1.5 Raleway, Arial, sans-serif;
+		margin-bottom: 20px;
+	}
+	.main__bid-form {
+		margin: 0 auto 30px;
+	}
+	.main__bid-input {
+		display: block;
+		width: 350px;
+	  height: 50px;
+	  border-radius: 30px;
+	  background-color: #e8e8e8;
+	  border: solid 1px #979797;
+	  font: 400 20px/1 Raleway, Arial, sans-serif;
+	  padding-left: 20px;
+	  margin: 10px auto 20px;
+	  outline: none;
+	}
+	.main__bid-input::placeholder {
+		font: 400 20px/1 Raleway, Arial, sans-serif;
+	}
+	.main__bid-agree {
+		margin-bottom: 40px;
+	}
+	.main__bid-label {
+		font: 300 14px/1 Raleway, Arial, sans-serif;
+	}
+	.checkbox {
+		position: relative;
+		padding-left: 25px;
+		margin: 5px 0 20px;
+	}
+	.checkbox #main__bid-chek[type=checkbox] {
+		display: none;
+	}
+	.checkbox .main__bid-label::after {
+		content: '';
+		height: 14px;
+		width: 14px;
+		border-radius: 50%;
+		border: 1px solid #979797;
+		background-color: #fff;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	.checkbox #main__bid-chek[type=checkbox]:checked + .main__bid-label::after {
+		width: 14px;
+		height: 14px;
+		border-radius: 50%;
+		border: 1px solid #979797;
+		background-color: #ff0000;
 	}
 }
 
