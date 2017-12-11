@@ -1,0 +1,44 @@
+@media (max-width: 480px) {
+	.header__container {
+		margin: 10px 5px;
+	}
+	.header__slogan {
+		order: 2;
+		font-size: 14px;
+		margin: 0 auto;
+		margin-top: 10px;
+	}
+	.main {
+		background: repeating-linear-gradient(170deg, 
+		 rgba(119, 170, 213, 1) 0,
+		 rgba(119, 170, 213, 1) 25%, 
+		 rgba(255, 255, 255, 1) 25%,
+		 rgba(255, 255, 255, 1) 50%);
+		/* background-position: bottom center; */
+		/* background-size: 100% 100%; */
+		padding: 30px 5px 0;
+
+	}
+	.main__consultation-header {
+		font: bold 18px/1 Raleway, Arial, sans-serif;
+		color: #fff;
+		margin-bottom: 15px;
+	}
+	.main__consultation-title {
+		font: bold 30px/1 Raleway, Arial, sans-serif;
+		color: #ffe100;
+		margin-bottom: 15px;
+	}
+	.main__consultation-subtitle {
+		font: 300 14px/1 Raleway, Arial, sans-serif;
+		color: #fff;
+		line-height: 1.5;
+		margin-bottom: 10px;
+	}
+	.main__image {
+		width: 70%;
+		height: 100%;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+}

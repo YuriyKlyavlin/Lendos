@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="115px" height="99px" viewBox="0 0 115 99" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 23</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-2" transform="translate(-512.000000, -1361.000000)">
+            <g id="Group-4" transform="translate(392.000000, 1361.000000)">
+                <g id="Group-23" transform="translate(120.000000, 0.000000)">
+                    <g id="briefcase_smal" fill-rule="nonzero">
+                        <g id="Group" fill="#886C60">
+                            <path d="M82.078,25.655 L32.755,25.655 L37.425,6.319 C38.267,2.769 41.162,0.247 44.525,0.247 L70.308,0.247 C73.578,0.247 76.473,2.769 77.408,6.319 L82.078,25.655 Z M39.294,20.611 L75.539,20.611 L72.363,7.533 C72.083,6.225 71.148,5.384 70.213,5.384 L44.526,5.384 C43.592,5.384 42.751,6.225 42.377,7.533 L39.295,20.611 L39.294,20.611 Z" id="Shape"></path>
+                            <path d="M114.493,19.677 C114.493,18.089 113.185,16.781 111.503,16.781 L3.33,16.781 C1.741,16.781 0.34,18.09 0.34,19.677 L0.34,49.57 L114.493,49.57 L114.493,19.677 Z" id="Shape"></path>
+                        </g>
+                        <path d="M1.18,49.57 L1.18,95.156 C1.18766557,96.7526205 2.48037699,98.0448857 4.077,98.052 L110.663,98.052 C112.258842,98.0437923 113.550343,96.7518447 113.558,95.156 L113.558,49.57 L1.181,49.57 L1.18,49.57 Z" id="Shape" fill="#74594E"></path>
+                        <polygon id="Shape" fill="#F1F3F7" points="46.02 42.283 68.813 42.283 68.813 56.482 46.02 56.482"></polygon>
+                    </g>
+                    <text id="1" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="40" font-weight="bold" letter-spacing="1.74000001" fill="#FFE100">
+                        <tspan x="46" y="91">1</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

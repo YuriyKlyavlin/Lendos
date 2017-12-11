@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,700');
+ @font-face {
+	font-family: Lucida Grande;
+	src: url('../fonts/LucidaGrandeRegular.ttf');
+	font-weight: 300;
+}
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+html {
+	height: 100%;
+}
+body {
+	
+}
+.wrapper {
+	max-width: 1360px;
+
+}
+.main {
+	background: linear-gradient(-10deg, rgba(255, 255, 255, 1) 50%, rgba(119, 170, 213, 1) 50%) center -50px / 100% 800px;
+	/* background-repeat: repeat; */
+
+}
+.header__container {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.header__logo {
+	font: bold 36px/1 "Lucida Grande", Arial, sans-serif;
+}
+.header__slogan {
+	font: 200 19px/1 Raleway, Arial, sans-serif;
+}
+.header__telephone {
+	font: bold 20px/1 "Lucida Grande", Arial, sans-serif;
+}
+.main {
+	padding: 50px 0 0 5px;
+}
+.main__consultation-header {
+	font: bold 24px/1 Raleway, Arial, sans-serif;
+	color: #fff;
+	margin-bottom: 15px;
+}
+.main__consultation {
+	display: flex;
+	flex-wrap: wrap;
+}
+.main__consultation-title {
+	font: bold 45px/1 Raleway, Arial, sans-serif;
+	color: #ffe100;
+	margin-bottom: 15px;
+}
+.main__consultation-subtitle {
+	font: 300 20px/1 Raleway, Arial, sans-serif;
+	color: #fff;
+	margin-bottom: 30px;
+}
+.main__image {
+
+}
+.main__consultation-btn {
+	width: 350px;
+	height: 60px;
+	margin: 0 auto;
+	border-radius: 30px;
+	border-style: none;
+	outline: none;
+	cursor: pointer;
+	background-color: #696f87;
+	font: 200 24px/1 Raleway, Arial, sans-serif;
+	color: #fff;
+}
