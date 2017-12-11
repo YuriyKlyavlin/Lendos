@@ -1,8 +1,19 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,700');
- @font-face {
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,300,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700');
+@font-face {
 	font-family: Lucida Grande;
 	src: url('../fonts/LucidaGrandeRegular.ttf');
 	font-weight: 300;
+}
+@font-face {
+	font-family: Raleway;
+	src: url('../fonts/Raleway-Regular.ttf');
+	font-weight: 300;
+}
+@font-face {
+	font-family: Raleway;
+	src: url('../fonts/Raleway-Bold.ttf');
+	font-weight: 700;
 }
 * {
 	-webkit-box-sizing: border-box;
@@ -34,7 +45,7 @@ body {
 	font: bold 36px/1 "Lucida Grande", Arial, sans-serif;
 }
 .header__slogan {
-	font: 200 19px/1 Raleway, Arial, sans-serif;
+	font: 300 19px/1 'Raleway', Arial, sans-serif;
 }
 .header__telephone {
 	font: bold 20px/1 "Lucida Grande", Arial, sans-serif;
@@ -43,7 +54,7 @@ body {
 	padding: 50px 0 0 5px;
 }
 .main__consultation-header {
-	font: bold 24px/1 Raleway, Arial, sans-serif;
+	font: 700 24px/1 Raleway, Arial, sans-serif;
 	color: #fff;
 	margin-bottom: 15px;
 }
@@ -52,7 +63,7 @@ body {
 	flex-wrap: wrap;
 }
 .main__consultation-title {
-	font: bold 45px/1 Raleway, Arial, sans-serif;
+	font: 700 45px/1 Raleway, Arial, sans-serif;
 	color: #ffe100;
 	margin-bottom: 15px;
 }
@@ -64,7 +75,7 @@ body {
 .main__image {
 
 }
-.main__consultation-btn {
+.global-btn {
 	width: 350px;
 	height: 60px;
 	margin: 0 auto;
@@ -73,6 +84,32 @@ body {
 	outline: none;
 	cursor: pointer;
 	background-color: #696f87;
-	font: 200 24px/1 Raleway, Arial, sans-serif;
+	font: 300 24px/1 Raleway, Arial, sans-serif;
 	color: #fff;
+}
+.main__promo {
+	margin-bottom: 175px;
+}
+.main__promo-offer {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+	margin-bottom: 30px;
+}
+.main__promo-img {
+	display: block;
+	margin: 0 auto 20px auto;
+}
+.main__item-title {
+	text-align: center;
+	font: 300 20px/1 Raleway, Arial, sans-serif;
+	line-height: 1.5;
+}
+.main__promo-text {
+	font: 300 15px/1.2 Raleway, Arial, sans-serif;
+	margin-bottom: 5px;
+}
+.bold {
+	font-weight: bold;
 }
