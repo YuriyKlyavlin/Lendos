@@ -114,6 +114,7 @@ section,
 }
 .main__content {
 	width: 55%;
+
 }
 .main__consultation-header {
 	font: 700 24px/1 Raleway, Arial, sans-serif;
@@ -142,8 +143,8 @@ section,
 	text-align: center;
 	text-decoration: none;
 	width: 350px;
-	margin-bottom: 200px;
-	float: right;
+	margin-bottom: 300px;
+	float: left;
 	-webkit-transition: opacity .25s linear;
 	-o-transition: opacity .25s linear;
 	transition: opacity .25s linear;
@@ -364,7 +365,7 @@ section,
 }
 .main__faq-item {
 	display: inline-block;
-	width: 83%;
+	width: 80%;
 	margin-bottom: 20px;
 }
 .main__faq-item-title {
@@ -414,31 +415,33 @@ section,
 	border-radius: 10px;
 	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
 }
-.slider__btn-left {
-	display: inline-block;
-	width: 60px; height: 60px;
-	background-color: #fff;
-	border-radius: 50%;
-	padding: 19px;
-	position: absolute;
-	left: -205px; top: 85px;
+.slider-wrapper {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
 }
+.slider__btn-left,
 .slider__btn-right {
+	width: calc((100% - 720px) / 2);
+	height: 60px;
+	margin: 95px 15px 0;
+}
+[class*="arrow-"]:hover {
+	background-color: #252525;
+	fill: #fff;
+}
+.arrow-left,
+.arrow-right {
 	display: inline-block;
 	width: 60px; height: 60px;
 	background-color: #fff;
 	border-radius: 50%;
 	padding: 19px;
-	position: absolute;
-	left: calc(100% + 145px); top: 85px;
+	cursor: pointer;
+	transition: all .25s linear;
 }
-.slider__btn-left:hover {
-	background-color: #252525;
-	fill: #fff;
-}
-.slider__btn-right:hover {
-	background-color: #252525;
-	fill: #fff;
+.arrow--mod {
+	margin-left: calc(100% - 60px);
 }
 .arrow-left {transform: rotate(180deg);}
 .main__reviws-user-pic {
