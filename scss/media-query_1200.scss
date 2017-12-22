@@ -1,0 +1,32 @@
+@media (min-width: 1200px) {
+.bg {
+	background: linear-gradient(173deg,
+		rgba(255, 255, 255, 0) 0%, 
+		rgba(255, 255, 255, 0) 15%, 
+		rgba(119, 170, 213, 1) 15.1%, 
+		rgba(119, 170, 213, 1) 87%, 
+		rgba(255, 255, 255, 0) 87.1%, 
+		rgba(255, 255, 255, 0) 100%);
+}
+.bg-start {
+	background: linear-gradient(173deg,
+		rgba(119, 170, 213, 1) 0%, 
+		rgba(119, 170, 213, 1) 77%, 
+		rgba(255, 255, 255, 0) 77.1%, 
+		rgba(255, 255, 255, 0) 100%);
+}
+.btn--center {margin: 0 auto;} /* Modificator to align buttons in center */
+
+.consultation {
+	padding: 0 10px 300px;
+	background-size: 616px 616px;
+	& .content {padding-top: 200px;}
+}
+.promo {
+	& .content {position: relative;
+		& img {top: -180px;}
+	}
+	& button {margin: 0 auto;}
+}
+.offer .item {width: 27%;}
+}

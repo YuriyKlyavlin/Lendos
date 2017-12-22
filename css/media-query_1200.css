@@ -1,0 +1,25 @@
+@media (min-width: 1200px) {
+  .bg {
+    background: -webkit-linear-gradient(277deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 15%, #77aad5 15.1%, #77aad5 87%, rgba(255, 255, 255, 0) 87.1%, rgba(255, 255, 255, 0) 100%);
+    background: -o-linear-gradient(277deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 15%, #77aad5 15.1%, #77aad5 87%, rgba(255, 255, 255, 0) 87.1%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(173deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 15%, #77aad5 15.1%, #77aad5 87%, rgba(255, 255, 255, 0) 87.1%, rgba(255, 255, 255, 0) 100%); }
+  .bg-start {
+    background: -webkit-linear-gradient(277deg, #77aad5 0%, #77aad5 77%, rgba(255, 255, 255, 0) 77.1%, rgba(255, 255, 255, 0) 100%);
+    background: -o-linear-gradient(277deg, #77aad5 0%, #77aad5 77%, rgba(255, 255, 255, 0) 77.1%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(173deg, #77aad5 0%, #77aad5 77%, rgba(255, 255, 255, 0) 77.1%, rgba(255, 255, 255, 0) 100%); }
+  .btn--center {
+    margin: 0 auto; }
+  /* Modificator to align buttons in center */
+  .consultation {
+    padding: 0 10px 300px;
+    background-size: 616px 616px; }
+    .consultation .content {
+      padding-top: 200px; }
+  .promo .content {
+    position: relative; }
+    .promo .content img {
+      top: -180px; }
+  .promo button {
+    margin: 0 auto; }
+  .offer .item {
+    width: 27%; } }

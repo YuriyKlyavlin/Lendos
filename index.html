@@ -8,238 +8,234 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link href="css/reset.css" rel="stylesheet">
 	<link href="css/styles.css" rel="stylesheet">
-	<link href="css/media-query.css" rel="stylesheet">
+	<link href="css/fonts.css" rel="stylesheet">
+	<link href="css/magnific-popup.css" rel="stylesheet">
+	<!-- <link href="css/media-query_1024.css" rel="stylesheet"> -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="dist/jquery.magnific-popup.js"></script>
 	<title>Landos</title>
 </head>
 <body>
 	<header class="header">
-		<div class="footer-header__container">
-			<h1 class="footer-header__logo">LOGO</h1>
-			<p class="footer-header__slogan">Гарантированое продвижение сайта статейными прогонами</p>
-			<p class="footer-header__telephone">+7 (499) 110-80-10</p>
+		<div class="container">
+			<a href="#" class="logo">LOGO</a>
+			<span>Гарантированое продвижение сайта статейными прогонами</span>
+			<a href="callto:+74991108010">+7 (499) 110-80-10</a>
 		</div>
 	</header>
-	<main class="main">
-		<div class="bg-wrapper bg--color-start">
-			<section class="main__consultation">
-				<div class="main__content">
-					<h1 class="main__consultation-header">ВЗРЫВНОЙ СТАРТ</h1>
-					<p class="main__consultation-title">Статейный прогон сайта-продвижение вашего сайта в Гугл и Яндекс c гарантией</p>
-					<p class="main__consultation-subtitle">только «белыми методами», с использованием сайтов с высшим рейтингом и хотлмчным показателем лалалалаллалалалаллалалал</p>
+	<div class="bg bg-start">
+		<section class="consultation">
+			<div class="content">
+				<div class="header">взрывной старт</div>
+				<div class="title">Статейный прогон сайта-продвижение вашего сайта в Гугл и Яндекс c гарантией</div>
+				<div class="subtitle">только «белыми методами», с использованием сайтов с высшим рейтингом и хотлмчным показателем лалалалаллалалалаллалалал</div>
+			</div>
+			<button href="#order-modal" type="submit" name="consultation_btn" class="btn cons-form">Заказать консультацию</button>
+		</section>			
+	</div>
+	<div>
+		<section class="promo">
+			<div class="content">
+				<img src="img/typewriter.png" alt="">
+				<svg width="76" height="79">
+					<use xlink:href="#pen"></use> 
+				</svg>
+				<div class="title">Мы предлагаем вам  безопасный метод продвижения сайта в поисковых системах</div>
+				<div class="subtitle">Наши копирайтеры, специально для вас, пишут одну или несколько статей (о вашей компании, услуге, товаре и т. д.), в тексте статьи размещается ссылка на Ваш сайт (в соответствии с контекстом). Далее эти статьи размещаются на различных площадках (каталоги статей, СДЛ, сателлиты), тем самым обеспечивая естественную ссылочную массу на ваш сайт.</div>
+			</div>
+			<div class="offer">
+				<div class="item">
+					<svg width="115" height="99">
+						<use xlink:href="#case-1"></use> 
+					</svg>
+					<div class="title">предложение №1</div>
+					<div class="subtitle">Размещение в каталогах статей</div>
+					<div class="text"><span class="bold">Описание:</span> Ваши статьи будут размещены в проверенных белых каталогах статей.</div>
+					<div class="text"><span class="bold">Количество каталогов:</span> 302 сайта.</div>
+					<div class="text"><span class="bold">Отчёт:</span> предоставляется в виде 5-6 ссылок на уже размещённые статьи. Основная масса отчёта будет лежать на созданной почте для спама.</div>
+					<div class="text"><span class="bold">Стоимость:</span> 5 500 руб.<br>- написание статей и размещение их в каталогах статей.</div>
 				</div>
-				<img src="img/start-up-launch.png" alt="" class="main__image">
-				<a href="#modal__order" class="global-btn btn--order">Заказать консультацию</a>
-				
-				<!-- modal form -->
-
-				<div id="modal__order" class="modal__order">
-					<a href="#">
-						<svg width="30" height="30" class="modal__order-close">
-							<use xlink:href="#close"></use> 
-						</svg>
-					</a>
-					<h1 class="modal__order-title">Заказать консультацию</h1>
-					<p class="modal__order-subtitle">Заполните форму завки и мы Вам перезвоним</p>
-					<form action="" method="post" class="order__forms-wrapper">
-						<div>
-							<input type="text" name="name" required placeholder="Имя*" class="order__input name">
-							<input type="text" name="tel" required placeholder="Телефон*" class="order__input tel">
-						</div>
-						<div>
-							<input type="text" name="site" placeholder="сайт" class="order__input site">
-							<input type="email" name="email" placeholder="Email" class="order__input email">
-						</div>
-						<textarea name="message" id="" cols="30" rows="13" placeholder="Сообщение" class="order__input field--message"></textarea>
-						<div class="order__checkbox">
-							<input type="checkbox" id="order__checkbox-check">
-							<label for="order__checkbox-check" class="order__checkbox-label">Заполняя данную форму, Вы соглащайтесь с уловиями Конфидециальности</label>
-						</div>
-						<a href="#" class="modal__form-btn">Отправить</a>
-					</form>
+				<div class="item">
+					<svg width="115" height="99">
+						<use xlink:href="#case-2"></use> 
+					</svg>
+					<div class="title">предложение №2</div>
+					<div class="subtitle">Размещение в каталогах блогах</div>
+					<div class="text"><span class="bold">Описание:</span> Ваши статьи будут размещены на многих популярных блогах Рунета.</div>
+					<div class="text"><span class="bold">Количество каталогов:</span> 217 сайта.</div>
+					<div class="text"><span class="bold">Отчёт:</span> предоставляется в виде полного списка ссылок на Ваши статьи.</div>
+					<div class="text"><span class="bold">Стоимость:</span> 9 500 руб.<br>- написание статей и размещение их в блогах.</div>
 				</div>
-				
-				<!-- modal form -->
-				
-			</section>
-		</div>
-		<div class="bg-wrapper">
-			<section class="main__promo">
-				<div class="main__promo-container">
-					<img src="img/typewriter.png" alt="" class="main__promo-typewriter">
-					<div class="main__promo-block">
-						<svg width="76" height="79" class="main__promo-pen">
-							<use xlink:href="#pen"></use> 
-						</svg>
-						<h2 class="main__promo-title">Мы предлагаем вам  безопасный метод продвижения сайта в поисковых системах</h2>
-						<p class="main__promo-subtitle">Наши копирайтеры, специально для вас, пишут одну или несколько статей (о вашей компании, услуге, товаре и т. д.), в тексте статьи размещается ссылка на Ваш сайт (в соответствии с контекстом). Далее эти статьи размещаются на различных площадках (каталоги статей, СДЛ, сателлиты), тем самым обеспечивая естественную ссылочную массу на ваш сайт.</p>
+				<div class="item">
+					<svg width="115" height="99">
+						<use xlink:href="#case-3"></use> 
+					</svg>
+					<div class="title">все включено</div>
+					<div class="subtitle">Скидка при заказе 2-х пакетов</div>
+					<div class="text"><span class="bold">Описание:</span> Ваши статьи будут размещены в проверенных белых каталогах статей.</div>
+					<div class="text"><span class="bold">Количество каталогов:</span> 302 сайта.</div>
+					<div class="text"><span class="bold">Отчёт:</span>  предоставляется в виде 5-6 ссылок на уже размещённые статьи. Основная масса отчёта будет лежать на созданной почте для спама.</div>
+					<div class="text"><span class="bold">Стоимость:</span> 13 000 руб.</div>
+				</div>
+			</div>
+			<button class="btn">Заказать продвижение</button>
+		</section>
+	</div>
+	<div class="bg">
+		<section class="result">
+			<div class="title">Ожидаемый результат</div>
+			<div class="subtitle">Создайте доверие поисковиков к Вашему сайту</div>
+			<ul>
+				<li class="item">
+					<div class="img-wrap" style="background-image: url(img/search.svg);"></div>
+					<div class="item-title" num="01">Повышение позиций в поисковых системах </div>
+					<div class="item-subtitle">Статейный прогон хорошо влияет на позиции в поисковых системах по низкочастотным и среднечастотным запросам.</div>
+				</li>
+				<li class="item">
+					<div class="img-wrap" style="background-image: url(img/startup.svg);"></div>
+					<div class="item-title" num="02">Ускорение индексации сайта </div>
+					<div class="item-subtitle">Статейный прогон хорошо влияет на позиции в поисковых системах по низкочастотным и среднечастотным запросам.</div>
+				</li>
+				<li class="item">
+					<div class="img-wrap" style="background-image: url(img/bar-chart.svg);"></div>
+					<div class="item-title" num="03">Повышение позиций в поисковых системах</div>
+					<div class="item-subtitle">Статейный прогон хорошо влияет на позиции в поисковых системах по низкочастотным и среднечастотным запросам.</div>
+				</li>
+				<li class="item">
+					<div class="img-wrap" style="background-image: url(img/startup.svg);"></div>
+					<div class="item-title" num="04">Ускорение индексации сайта</div>
+					<div class="item-subtitle">Статейный прогон хорошо влияет на позиции в поисковых системах по низкочастотным и среднечастотным запросам.</div>
+				</li>
+			</ul>
+		</section>
+	</div>
+	<div>
+		<section class="faq">
+			<div class="title">Часто задаваемые вопросы</div>
+			<div class="subtitle">Мы подготовили для Вас ответы на самые популярные вопросы</div>
+			<div class="item">
+				<div class="item-title">Почему у многих больше сайтов и дешевле цены?</div>
+				<div class="item-subtitle">Больше и дешевле не значит лучше, важен результат. К тому же, при большом потоке ссылок с сомнительных сайтов, возникает риск санкций со стороны поисковых систем. Мы же используем только качественные площадки, ссылки с которых приносят пользу Вашему сайту, а не вредят ему. В итоге, в пересчёте на полезность, стоимость наших услуг будет ниже аналогичных предложений.</div>
+			</div>
+			<div class="item">
+				<div class="item-title">Не будет ли "бана" или фильтра от поисковых систем за большой прирост ссылочной массы за короткий срок? И можно ли растянуть регистрацию?</div>
+				<div class="item-subtitle">Никаких фильтров или "банов" из-за данной услуги не было и не будет. Сайты индексируются примерно 1,5-2 месяца, в связи с этим, никакого резкого скачка количества ссылок не будет и растягивать регистрацию не имеет смысла. Прирост ссылочной массы будет плавным и будет выглядеть как естественный.</div>
+			</div>
+			<div class="item">
+				<div class="item-title">Создаёте ли в почту для регистрации на сайтах?</div>
+				<div class="item-subtitle">Да, для каждого нашего клиента мы создаём отдельную почту, которая указывается при регистрации на сайтах (если сайт этого требует). Мы так же, в обязательном порядке, активируем все аккаунты требующие подтверждения (через почту). После завершения наших работ, почта (e-mail) передаётся Вам.</div>
+			</div>
+			<div class="item">
+				<div class="item-title">Как часто надо использовать услугу статейного прогона?</div>
+				<div class="item-subtitle">Один раз в 6 месяцев будет достаточно. Мы готовы чаще, но для Вас нет ни какого смысла.</div>
+			</div>
+		</section>
+	</div>
+	<div class="bg">
+		<section class="reviews">
+			<div class="title">отзывы наших клиентов</div>
+			<div class="subtitle">Наша работа приносит результат, о чем говорят наши клиенты</div>
+			<div class="slider">
+				<div class="btn-left">
+					<svg width="22" height="22" class="arrow-left">
+						<use xlink:href="#arrow"></use> 
+					</svg>
+				</div>
+				<div class="content">
+					<div class="user-pic"></div>
+					<div class="user-name">Василий Петров</div>
+					<div class="user-msg">Nam elit arcu, malesuada id ornare nec, pellentesque ut augue. Praesent sit amet nunc ut libero feugiat luctus bibendum sollicitudin ligula. Donec vulputate turpis ante, id euismod sem posuere ut. Fusce nec fringilla justo.</div>
+				</div>
+				<div class="btn-right">
+					<svg width="22" height="22" class="arrow-right arrow--mod">
+						<use xlink:href="#arrow"></use> 
+					</svg>
+				</div>
+			</div>
+			<button name="bid_btn" value="" class="btn btn--center">Статистистика</button>
+		</section>
+	</div>
+	<div>
+		<section class="bid">
+			<div class="top">
+				<div class="title">хочу выйти в топ</div>
+				<div class="subtitle">Текст о том что Вас ждет и так дальшеТекст о том что Вас ждет и так дальшеТекст о том что Вас ждет и так дальшеТекст о том что Вас ждет и так дальше ждет и так дальше</div>
+				<div class="subtitle">Текст о том что Вас ждет и так дальшеТекст о том что Вас ждет и так дальшеТекст о том что Вас ждет и так дальшеТекст о том что Вас ждет и так дальше</div>
+			</div>
+			<form action="" method="post" class="form">
+				<div class="title">оставить заявку</div>
+				<fieldset class="forms">
+					<input type="text" name="user" placeholder="Имя" class="input">
+					<input type="text" name="tel" placeholder="Телефон" class="input">
+				</fieldset>
+				<div>
+					<div class="checkbox">
+						<input type="checkbox" id="check" class="checkbox">
+						<label for="check" class="label">Согласие на обработку данных</label>
 					</div>
+					<button href="#bid-modal" class="btn bid-form" disabled="disabled">Отправить</button>
 				</div>
-				<div class="main__promo-offer">
-					<div class="main__promo-item">
-						<svg width="115" height="99" class="main__promo-img">
-							<use xlink:href="#case-1"></use> 
-						</svg>
-						<h2 class="main__item-title">ПРЕДЛОЖЕНИЕ №1</h2>
-						<p class="main__item-subtitle">Размещение в каталогах статей</p>
-						<p class="main__promo-text"><span class="bold">Описание:</span> Ваши статьи будут размещены в проверенных белых каталогах статей.</p>
-						<p class="main__promo-text"><span class="bold">Количество каталогов:</span> 302 сайта.</p>
-						<p class="main__promo-text"><span class="bold">Отчёт:</span> предоставляется в виде 5-6 ссылок на уже размещённые статьи. Основная масса отчёта будет лежать на созданной почте для спама.</p>
-						<p class="main__promo-text"><span class="bold">Стоимость:</span> 5 500 руб.<br>- написание статей и размещение их в каталогах статей.</p>
-					</div>
-					<div class="main__promo-item">
-						<svg width="115" height="99" class="main__promo-img">
-							<use xlink:href="#case-2"></use> 
-						</svg>
-						<h2 class="main__item-title">ПРЕДЛОЖЕНИЕ №2</h2>
-						<p class="main__item-subtitle">Размещение в каталогах блогах</p>
-						<p class="main__promo-text"><span class="bold">Описание:</span> Ваши статьи будут размещены на многих популярных блогах Рунета.</p>
-						<p class="main__promo-text"><span class="bold">Количество каталогов:</span> 217 сайта.</p>
-						<p class="main__promo-text"><span class="bold">Отчёт:</span> предоставляется в виде полного списка ссылок на Ваши статьи.</p>
-						<p class="main__promo-text"><span class="bold">Стоимость:</span> 9 500 руб.<br>- написание статей и размещение их в блогах.</p>
-					</div>
-					<div class="main__promo-item">
-						<svg width="115" height="99" class="main__promo-img">
-							<use xlink:href="#case-3"></use> 
-						</svg>
-						<h2 class="main__item-title">ВСЕ ВКЛЮЧЕННО</h2>
-						<p class="main__item-subtitle">Скидка при заказе 2-х пакетов</p>
-						<p class="main__promo-text"><span class="bold">Описание:</span> Ваши статьи будут размещены в проверенных белых каталогах статей.</p>
-						<p class="main__promo-text"><span class="bold">Количество каталогов:</span> 302 сайта.</p>
-						<p class="main__promo-text"><span class="bold">Отчёт:</span>  предоставляется в виде 5-6 ссылок на уже размещённые статьи. Основная масса отчёта будет лежать на созданной почте для спама.</p>
-						<p class="main__promo-text"><span class="bold">Стоимость:</span> 13 000 руб.</p>
-					</div>
-				</div>
-				<button class="global-btn btn--center">Заказать продвижение</button>
-			</section>
-		</div>
-		<div class="bg-wrapper bg--color">
-			<section class="main__result">
-				<h2 class="main__result-title">Ожидаемый результат</h2>
-				<p class="main__result-subtitle">Создайте доверие поисковиков к Вашему сайту</p>
-				<div class="main__result-item item--1">
-					<div class="image-container">
-					</div>
-					<p class="main__result-item-title" num="01">Повышение позиций в поисковых системах </p>
-					<p class="main__result-item-subtitle">Статейный прогон хорошо влияет на позиции в поисковых системах по низкочастотным и среднечастотным запросам.</p>
-				</div>
-				<div class="main__result-item item--2">
-					<div class="image-container">
-					</div>
-					<p class="main__result-item-title" num="02">Ускорение индексации сайта </p>
-					<p class="main__result-item-subtitle">Статейный прогон хорошо влияет на позиции в поисковых системах по низкочастотным и среднечастотным запросам.</p>
-				</div>
-				<div class="main__result-item item--3">
-					<div class="image-container">
-					</div>
-					<p class="main__result-item-title" num="03">Повышение позиций в поисковых системах</p>
-					<p class="main__result-item-subtitle">Статейный прогон хорошо влияет на позиции в поисковых системах по низкочастотным и среднечастотным запросам.</p>
-				</div>
-				<div class="main__result-item item--4">
-					<div class="image-container">
-					</div>
-					<p class="main__result-item-title" num="04">Ускорение индексации сайта</p>
-					<p class="main__result-item-subtitle">Статейный прогон хорошо влияет на позиции в поисковых системах по низкочастотным и среднечастотным запросам.</p>
-				</div>
-			</section>
-		</div>
-		<div class="bg-wrapper">
-			<section class="main__faq">
-				<h2 class="main__faq-title">ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ</h2>
-				<p class="main__faq-subtitle">Мы подготовили для Вас ответы на самые популярные вопросы</p>
-				<div class="main__faq-item">
-					<p class="main__faq-item-title">Почему у многих больше сайтов и дешевле цены?</p>
-					<p class="main__faq-item-subtitle">Больше и дешевле не значит лучше, важен результат. К тому же, при большом потоке ссылок с сомнительных сайтов, возникает риск санкций со стороны поисковых систем. Мы же используем только качественные площадки, ссылки с которых приносят пользу Вашему сайту, а не вредят ему. В итоге, в пересчёте на полезность, стоимость наших услуг будет ниже аналогичных предложений.</p>
-				</div>
-				<div class="main__faq-item">
-					<p class="main__faq-item-title">Не будет ли "бана" или фильтра от поисковых систем за большой прирост ссылочной массы за короткий срок? И можно ли растянуть регистрацию?</p>
-					<p class="main__faq-item-subtitle">Никаких фильтров или "банов" из-за данной услуги не было и не будет. Сайты индексируются примерно 1,5-2 месяца, в связи с этим, никакого резкого скачка количества ссылок не будет и растягивать регистрацию не имеет смысла. Прирост ссылочной массы будет плавным и будет выглядеть как естественный.</p>
-				</div>
-				<div class="main__faq-item">
-					<p class="main__faq-item-title">Создаёте ли в почту для регистрации на сайтах?</p>
-					<p class="main__faq-item-subtitle">Да, для каждого нашего клиента мы создаём отдельную почту, которая указывается при регистрации на сайтах (если сайт этого требует). Мы так же, в обязательном порядке, активируем все аккаунты требующие подтверждения (через почту). После завершения наших работ, почта (e-mail) передаётся Вам.</p>
-				</div>
-				<div class="main__faq-item">
-					<p class="main__faq-item-title">Как часто надо использовать услугу статейного прогона?</p>
-					<p class="main__faq-item-subtitle">Один раз в 6 месяцев будет достаточно. Мы готовы чаще, но для Вас нет ни какого смысла.</p>
-				</div>
-			</section>
-		</div>
-		<div class="bg-wrapper bg--color">
-			<section class="main__reviews">
-				<h2 class="main__reviws-title">ОТЗЫВЫ НАШИХ КЛИЕНТОВ</h2>
-				<p class="main__reviws-subtitle">Наша работа приносит результат, о чем говорят наши клиенты</p>
-				<div class="slider-wrapper">
-					<div class="slider__btn-left">
-						<svg width="22" height="22" class="arrow-left">
-							<use xlink:href="#arrow"></use> 
-						</svg>
-					</div>
-					<div class="main__reviws-slider">
-						<div class="main__reviws-user-pic"></div>
-						<p class="main__reviws-user-name">Василий Петров</p>
-						<p class="main__reviws-user-msg">Nam elit arcu, malesuada id ornare nec, pellentesque ut augue. Praesent sit amet nunc ut libero feugiat luctus bibendum sollicitudin ligula. Donec vulputate turpis ante, id euismod sem posuere ut. Fusce nec fringilla justo.</p>
-						</div>
-						<div class="slider__btn-right">
-							<svg width="22" height="22" class="arrow-right arrow--mod">
-								<use xlink:href="#arrow"></use> 
-							</svg>
-						</div>
-					</div>
-				<button class="global-btn btn--center">Статистистика</button>
-			</section>
-		</div>
-		<div class="bg-wrapper">
-			<section class="main__bid">
-				<a href="#" name="anchor"></a>
-				<div class="main__bid-top">
-					<h2 class="main__bid-title">ХОЧУ ВЫЙТИ В ТОП</h2>
-					<p class="main__bid-subtitle">Текст о том что Вас ждет и так дальшеТекст о том что Вас ждет и так дальшеТекст о том что Вас ждет и так дальшеТекст о том что Вас ждет и так дальше ждет и так дальше</p>
-					<p class="main__bid-subtitle">Текст о том что Вас ждет и так дальшеТекст о том что Вас ждет и так дальшеТекст о том что Вас ждет и так дальшеТекст о том что Вас ждет и так дальше</p>
-				</div>
-				<form action="" method="post" class="main__bid-form">
-					<h2 class="main__bid-title text--center">ОСТАВИТЬ ЗАЯВКУ</h2>
-					<fieldset class="main__bid-forms">
-						<input type="text" name="user" required="required" placeholder="Имя" class="main__bid-input">
-						<input type="text" name="tel" required="required" placeholder="Телефон" class="main__bid-input">
-					</fieldset>
-					<div>
-						<div class="checkbox">
-							<input type="checkbox" id="main__bid-chek">
-							<label for="main__bid-chek" class="main__bid-label">Согласие на обработку данных</label>
-						</div>
-						<a href="#modal" class="global-btn btn--send">Отправить</a>
-					</div>
-				</form>
-				
-
-				<!-- modal form -->
-
-				<div id="modal" class="modal__form">
-					<a href="#anchor">
-						<svg width="30" height="30" class="modal__form-close">
-							<use xlink:href="#close"></use> 
-						</svg></a>
-					<h2 class="modal__form-title">Спасибо!</h2>
-					<p class="modal__form-subtitle">в ближайшее время мы Вам перезвоним!</p>
-					<a href="#anchor" class="modal__form-btn">Закрыть</a>
-				</div>
-
-				<!-- modal form -->
-
-			</section>
-		</div>
-	</main>
-	<footer class="bg-wrapper footer--color">
-		<div class="footer-header__container">
-			<h1 class="footer-header__logo">LOGO</h1>
-			<p class="footer-header__slogan">Гарантированое продвижение сайта статейными прогонами</p>
-			<p class="footer-header__telephone">+7 (499) 110-80-10</p>
+			</form>
+		</section>
+	</div>
+	<footer class="footer">
+		<div class="container">
+			<a href="#" class="logo">LOGO</a>
+			<span>Гарантированое продвижение сайта статейными прогонами</span>
+			<a href="callto:+74991108010">+7 (499) 110-80-10</a>
 		</div>
 	</footer>
 
-	
+<!-- modal form -->
 
-	<!-- svg sprites -->
+	<div id="order-modal" class="mfp-hide">
+		<svg width="30" height="30" class="mfp-close">
+			<use xlink:href="#close"></use> 
+		</svg>
+		<div class="title">Заказать консультацию</div>
+		<div class="subtitle">Заполните форму завки и мы Вам перезвоним</div>
+		<form action="" method="post" class="wrapper">
+			<div>
+				<input type="text" name="name" required placeholder="Имя*" class="input name">
+				<input type="text" name="tel" required placeholder="Телефон*" class="input tel">
+			</div>
+			<div>
+				<input type="text" name="site" placeholder="сайт" class="input site">
+				<input type="email" name="email" placeholder="Email" class="input email">
+			</div>
+			<textarea name="message" id="" cols="30" rows="13" placeholder="Сообщение" class="input field--message"></textarea>
+			<div class="checkbox">
+				<input type="checkbox" id="checkbox-agree">
+				<label for="checkbox-agree" class="label-agree">Заполняя данную форму, Вы соглащайтесь с уловиями Конфидециальности</label>
+			</div>
+			<button class="btn btn-send" disabled="disabled">Отправить</button>
+		</form>
+	</div>
+			
+<!-- modal form -->
+
+
+<!-- modal form -->
+
+	<div id="bid-modal" class="mfp-hide">
+		<svg width="30" height="30" class="mfp-close">
+			<use xlink:href="#close"></use>
+		</svg>
+		<div class="title">Спасибо!</div>
+		<div class="subtitle">в ближайшее время мы Вам перезвоним!</div>
+		<a href="" class="close-btn">Закрыть</a>
+	</div>
+
+<!-- modal form -->
+
+<!-- to top button -->
+<div id = "toTop">
+	<svg width="50" height="50" class="arrow-left">
+		<use xlink:href="#arrow"></use> 
+	</svg>
+</div>
+
+<!-- svg sprites -->
 
 	<svg style="display: none;">
 		<symbol id="arrow" viewbox="0 0 22 22">
@@ -350,5 +346,7 @@
 			<polygon points="25.994,0 13.748,12.339 1.408,0.092 0.001,1.512 12.34,13.758 0.092,26.098 1.512,27.507 13.759,15.168 26.098,27.415 27.507,25.995 15.168,13.749 27.415,1.409"></polygon>
 		</symbol>
 	</svg>
+	<script src="dist/main.js"></script>
 </body>
 </html>
+
